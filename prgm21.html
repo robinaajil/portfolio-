@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css variable</title>
+    <style>
+        :root{
+            --brown:blue
+        }
+        h1{
+            color: var(--brown);
+        }
+        P{
+            --x:white;
+            background-color: var(--brown);
+            color: var(--x);
+         }
+         h3{
+            background-color: var(--brown);
+            color: var(--x);
+         }
+    </style>
+
+</head>
+<body>
+    <h1>heading 1</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, quae, dolorum temporibus iste est dolor maxime blanditiis magni, ad laboriosam doloribus enim! Quaerat sequi iusto asperiores nesciunt vel modi error.</p>
+    <h3>heading 3</h3>
+</body>
+</html>
